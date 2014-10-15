@@ -17,12 +17,13 @@
     "ios": "5.0"
   },
   "requires_arc": true,
-  "source_files": "vungle3010/vunglepub.embeddedframework/vunglepub.framework/**/*.h",
-  "resources": "vungle3010/vunglepub.embeddedframework/Resources/*.*",
-  "preserve_paths": "vungle3010/vunglepub.embeddedframework",
+  "vendored_frameworks": [
+    "VungleSDK.embeddedframework/VungleSDK.framework"
+  ],
+  "resources": "VungleSDK.embeddedframework/Resources/*.*",
+  "preserve_paths": "VungleSDK.embeddedframework",
   "libraries": "z",
   "frameworks": [
-    "vunglepub",
     "AVFoundation",
     "CFNetwork",
     "CoreGraphics",
@@ -36,8 +37,5 @@
     "AdSupport",
     "StoreKit",
     "CoreLocation"
-  ],
-  "xcconfig": {
-    "FRAMEWORK_SEARCH_PATHS": "\"$(PODS_ROOT)/VungleAdvertiserSDK/vungle3010/vunglepub.embeddedframework\""
-  }
+  ]
 }
