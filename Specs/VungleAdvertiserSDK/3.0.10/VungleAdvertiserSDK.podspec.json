@@ -22,7 +22,10 @@
   ],
   "resources": "VungleSDK.embeddedframework/Resources/*.*",
   "preserve_paths": "VungleSDK.embeddedframework",
-  "libraries": "z",
+  "libraries": [
+    "z",
+    "sqlite3"
+  ],
   "frameworks": [
     "AVFoundation",
     "CFNetwork",
