@@ -32,7 +32,7 @@
     "StoreKit",
     "SystemConfiguration"
   ],
-  "libraries": "GoogleMobileAds",
+  "libraries": "GoogleAdMobAds",
   "xcconfig": {
     "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/Google-AdMob-Ads-SDK/GoogleMobileAdsSdkiOS-7.0.0\""
   },
