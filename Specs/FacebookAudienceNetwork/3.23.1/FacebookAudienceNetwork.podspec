@@ -3,9 +3,9 @@
 
 Pod::Spec.new do |s|
   s.name             = "FacebookAudienceNetwork"
-  s.version          = "3.18.1"
+  s.version          = "3.23.1"
   s.summary          = "The Facebook Audience Network SDK"
-  s.source           = { :http => "https://s3.amazonaws.com/hz-sdk/third-party/fan/FBAudienceNetwork-3.18.1.framework.zip" }
+  s.source           = { :http => "https://s3.amazonaws.com/hz-sdk/third-party/fan/FBAudienceNetwork-3.23.1.framework.zip" }
   s.homepage         = "https://www.facebook.com/business/news/audience-network"
   s.license          = { :type => 'Commercial', :text => <<-LICENSE
                    No license given.
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
-  
+
   s.vendored_frameworks = 'FBAudienceNetwork.framework'
 
 end
