@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.requires_arc = true
 
-  s.vendored_frameworks = 'FBAudienceNetwork-4.0.1.framework'
+  s.vendored_frameworks = 'FBAudienceNetwork.framework'
 
 end
