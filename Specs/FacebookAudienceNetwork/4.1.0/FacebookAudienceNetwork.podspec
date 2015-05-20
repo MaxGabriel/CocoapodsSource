@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.vendored_frameworks = 'FBAudienceNetwork.framework'
+  s.frameworks = 'CoreMotion', 'AdSupport', 'StoreKit'
 
 end
