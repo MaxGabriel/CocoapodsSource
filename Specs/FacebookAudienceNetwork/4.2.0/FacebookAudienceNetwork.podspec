@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'FBAudienceNetwork.framework'
   s.frameworks = 'CoreMotion', 'AdSupport', 'StoreKit'
+  s.public_header_files = 'FBAudienceNetwork.framework/**/*.h'
 
 end
