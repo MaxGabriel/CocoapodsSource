@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                  LICENSE
                }
   s.author           = { "Max Tagher" => "feedback.tagher@gmail.com" }
-  s.source           = { :http => "https://s3.amazonaws.com/hz-sdk/third-party/inmobi/inmobi-#{s.version}.zip" }
+  s.source           = { :http => "https://s3.amazonaws.com/hz-sdk/third-party/inmobi/inmobi-#{s.version}.zip", :flatten => true }
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
