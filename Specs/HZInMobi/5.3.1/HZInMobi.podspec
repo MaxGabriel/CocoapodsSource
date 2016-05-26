@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HZInMobi"
-  s.version          = "5.3.0"
+  s.version          = "5.3.1"
   s.summary          = "InMobi iOS SDK."
   s.homepage         = "https://www.inmobi.com"
   s.license          = { :type => 'proprietary', :text => <<-LICENSE
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source_files = "Headers/*.h"
   s.vendored_libraries = "libInMobi-#{s.version}.a"
 
-  s.frameworks = "AdSupport", "AudioToolbox", "AVFoundation", "CoreLocation", "CoreTelephony", "EventKit", "EventKitUI", "MediaPlayer", "MessageUI", "Security", "Social", "StoreKit", "SystemConfiguration", "SafariServices"
-  s.libraries = "sqlite3", "c++"
+  s.frameworks = "AdSupport", "AudioToolbox", "AVFoundation", "CoreLocation", "CoreTelephony", "EventKit", "EventKitUI", "Foundation", MediaPlayer", "MessageUI", "Security", "Social", "StoreKit", "SystemConfiguration", "SafariServices", "UIKit"
+  s.libraries = "sqlite3", "c++", "z"
 
 end
