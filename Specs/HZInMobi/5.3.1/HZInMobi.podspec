@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source_files = "Headers/*.h"
   s.vendored_libraries = "libInMobi-#{s.version}.a"
 
-  s.frameworks = "AdSupport", "AudioToolbox", "AVFoundation", "CoreLocation", "CoreTelephony", "EventKit", "EventKitUI", "Foundation", MediaPlayer", "MessageUI", "Security", "Social", "StoreKit", "SystemConfiguration", "SafariServices", "UIKit"
+  s.frameworks = "AdSupport", "AudioToolbox", "AVFoundation", "CoreLocation", "CoreTelephony", "EventKit", "EventKitUI", "Foundation", "MediaPlayer", "MessageUI", "Security", "Social", "StoreKit", "SystemConfiguration", "SafariServices", "UIKit"
   s.libraries = "sqlite3", "c++", "z"
 
 end
