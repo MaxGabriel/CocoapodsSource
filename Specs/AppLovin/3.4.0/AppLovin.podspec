@@ -18,4 +18,6 @@ Pod::Spec.new do |s|
   s.source_files = "headers/*.h"
   s.vendored_libraries = 'libAppLovinSdk.a'
 
+  s.frameworks = 'AdSupport', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreTelephony', 'StoreKit', 'SystemConfiguration', 'UIKit'
+
 end
