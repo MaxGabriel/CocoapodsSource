@@ -1,0 +1,50 @@
+
+{
+  "name": "FYBInMobi",
+  "version": "6.0.01",
+  "summary": "The FyberSDK InMobi adapter.",
+  "description": "The FyberSDK InMobi adapter. This spec is adapted to work without a dependency on the Fyber SDK, so it works with Heyzap SDK 10.",
+  "homepage": "http://developer.fyber.com/",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright 2011 - 2016, Fyber GmbH, all rights reserved"
+  },
+  "authors": "Fyber GmbH",
+  "social_media_url": "https://twitter.com/Fyber",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "https://bintray.com/artifact/download/fyber/mobile-adapters-ios/Fyber_InMobi_6.0.0-r1.zip"
+  },
+  "preserve_paths": "Fyber_InMobi_6.0.0-r1/SDK8/**",
+  "vendored_frameworks": [
+    "Fyber_InMobi_6.0.0-r1/SDK8/Fyber_InMobi_6.0.0-r1.embeddedframework/Fyber_InMobi_6.0.0-r1.framework",
+    "Fyber_InMobi_6.0.0-r1/SDK8/Fyber_InMobi_6.0.0-r1.embeddedframework/Resources/InMobiSDK.framework"
+  ],
+  "libraries": [
+    "sqlite3",
+    "z"
+  ],
+  "frameworks": [
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreMedia",
+    "CoreGraphics",
+    "CoreTelephony",
+    "EventKit",
+    "EventKitUI",
+    "Foundation",
+    "MediaPlayer",
+    "MessageUI",
+    "QuartzCore",
+    "SystemConfiguration"
+  ],
+  "weak_frameworks": [
+    "AdSupport",
+    "Social",
+    "StoreKit",
+    "WebKit"
+  ],
+  "requires_arc": true
+}
