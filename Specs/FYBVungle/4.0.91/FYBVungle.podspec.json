@@ -1,0 +1,44 @@
+{
+ "name": "FYBVungle",
+  "version": "4.0.91",
+  "summary": "The FyberSDK Vungle adapter.",
+  "description": "The Fyber SDK Vungle adapter. This spec is adapted to work without a dependency on the Fyber SDK, so it works with Heyzap SDK 10.",
+  "homepage": "http://developer.fyber.com/",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright 2011 - 2016, Fyber GmbH, all rights reserved"
+  },
+  "authors": "Fyber GmbH",
+  "social_media_url": "https://twitter.com/Fyber",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "https://bintray.com/artifact/download/fyber/mobile-adapters-ios/Fyber_Vungle_4.0.9-r1.zip"
+  },
+  "preserve_paths": "Fyber_Vungle_4.0.9-r1/SDK8/**",
+  "vendored_frameworks": "Fyber_Vungle_4.0.9-r1/SDK8/Fyber_Vungle_4.0.9-r1.embeddedframework/Fyber_Vungle_4.0.9-r1.framework",
+  "resources": [
+    "Fyber_Vungle_4.0.9-r1/SDK8/Fyber_Vungle_4.0.9-r1.embeddedframework/Resources/**"
+  ],
+  "frameworks": [
+    "AdSupport",
+    "AudioToolbox",
+    "AVFoundation",
+    "CFNetwork",
+    "CoreGraphics",
+    "CoreMedia",
+    "Foundation",
+    "MediaPlayer",
+    "QuartzCore",
+    "StoreKit",
+    "SystemConfiguration",
+    "UIKit"
+  ],
+  "weak_frameworks": "WebKit",
+  "libraries": [
+    "z",
+    "sqlite3"
+  ],
+  "requires_arc": true
+}
