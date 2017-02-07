@@ -1,6 +1,6 @@
 {
   "name": "FYBTapjoy",
-  "version": "11.9.11",
+  "version": "11.9.01",
   "summary": "The FyberSDK Tapjoy adapter.",
   "description": "The Fyber Tapjoy Adapter. This spec is adapted to work without a dependency on the Fyber SDK, so it works with Heyzap SDK 10.",
   "homepage": "http://developer.fyber.com/",
