@@ -1,0 +1,44 @@
+{
+  "name": "FYBAdColony",
+  "version": "3.0.42",
+  "summary": "The FyberSDK AdColony adapter.",
+  "description": "The FyberSDK AdColony adapter. This spec is adapted to work without a dependency on the Fyber SDK, so it works with Heyzap SDK 10.",
+  "homepage": "http://developer.fyber.com/",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright 2011 - 2016, Fyber GmbH, all rights reserved"
+  },
+  "authors": "Fyber GmbH",
+  "social_media_url": "https://twitter.com/Fyber",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "https://bintray.com/artifact/download/fyber/mobile-adapters-ios/Fyber_AdColony_3.0.4-r2.zip"
+  },
+  "preserve_paths": "Fyber_AdColony_3.0.4-r2/SDK8/**",
+  "vendored_frameworks": "Fyber_AdColony_3.0.4-r2/SDK8/Fyber_AdColony_3.0.4-r2.embeddedframework/Fyber_AdColony_3.0.4-r2.framework",
+  "frameworks": [
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreMedia",
+    "CoreGraphics",
+    "CoreTelephony",
+    "EventKit",
+    "EventKitUI",
+    "Foundation",
+    "MediaPlayer",
+    "MessageUI",
+    "QuartzCore",
+    "SystemConfiguration"
+  ],
+  "weak_frameworks": [
+    "AdSupport",
+    "JavaScriptCore",
+    "Social",
+    "StoreKit",
+    "WebKit"
+  ],
+  "libraries": "z",
+  "requires_arc": true
+}
